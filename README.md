@@ -5,7 +5,7 @@
 
 
 ### 計画 第0章
-- plan/chapter-00/title-idea.txt: タイトルのアイデア
+- plan/chapter-00/title-idea-00.md: タイトルのアイデア
 
 
 ### 計画 第1章
