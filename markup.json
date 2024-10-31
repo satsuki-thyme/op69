@@ -1,5 +1,6 @@
 [
   {
+    "active": true,
     "name": "キャラクター",
     "markupType": "preposition",
     "mark": ["{", "}"],
@@ -7,6 +8,7 @@
     "var": ["list", "", "character-list", ["名前", "性質・情報"], 0, 0]
   },
   {
+    "active": false,
     "name": "魔物",
     "markupType": "preposition",
     "mark": ["[", "]"],
@@ -14,6 +16,7 @@
     "var": ["list", "", "monster-list", ["名前", "性質・情報"], 0, 0]
   },
   {
+    "active": true,
     "name": "物事",
     "markupType": "preposition",
     "mark": ["(", ")"],
@@ -21,6 +24,7 @@
     "var": ["list", "", "thing-list", ["名前", "性質・情報"], 0, 0]
   },
   {
+    "active": false,
     "name": "伏線",
     "markupType": "preposition",
     "mark": ["<", ">"],
@@ -28,7 +32,19 @@
     "var": ["list", "", "foreshadowing-list", ["識別名", "内容"], 0, 0]
   },
   {
-    "name": "括弧",
+    "active": false,
+    "name": "魔法",
+    "markupType": "enclosure",
+    "delete": false,
+    "mark": [
+      [["〈", "〉"], ""]
+    ],
+    "path": "magic-list",
+    "var": ["list", "", "magic-list", ["魔法名", "説明"], 0, 200]
+  },
+  {
+    "active": true,
+    "name": "ピックアップ",
     "markupType": "enclosure",
     "delete": true,
     "mark": [
@@ -43,16 +59,6 @@
       [["~", "~"], ""]
     ],
     "path": "mark-list",
-    "var": ["list", "", "mark-list", ["括弧内", "括弧前後の記述"], 100, 100]
-  },
-  {
-    "name": "魔法",
-    "markupType": "enclosure",
-    "delete": false,
-    "mark": [
-      [["〈", "〉"], ""]
-    ],
-    "path": "magic-list",
-    "var": ["list", "", "magic-list", ["魔法名", "説明"], 0, 200]
+    "var": ["list", "", "mark-list", ["ピックアップ語", "ピックアップ語前後の記述"], 100, 100]
   }
 ]
