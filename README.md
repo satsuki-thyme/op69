@@ -21,3 +21,4 @@
 ### アイデア
 - idea/ide-001.md: 意隙の歩法
 - idea/ide-002.md: 名称
+- idea/ide-003.md: 高圧ガス魔法
